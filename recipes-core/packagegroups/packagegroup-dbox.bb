@@ -9,6 +9,9 @@ RDEPENDS_${PN} = "\
   python3-pyyaml \
   python3-bcrypt \
   python3-transitions \
-  python3-colorzero \
   python3-gpiozero \
+  python3-dbus \
+  python3-sdnotify \
+  python3-colorzero \
+  python3-pycparser \
 "

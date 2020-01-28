@@ -1,7 +1,7 @@
 DESCRIPTION = "GPIO software library primarily targeting raspberry pi"
 HOMEPAGE = "https://github.com/gpiozero/gpiozero"
 SECTION = "devel/python"
-LICENSE = "BSD-3"
+LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://LICENSE.rst;md5=96cd08cadd8a35cf94fc1770ee0743da"
 
 PYPI_PACKAGE = "gpiozero"
