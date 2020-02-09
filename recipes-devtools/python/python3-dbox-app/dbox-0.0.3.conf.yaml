@@ -1,0 +1,8 @@
+# GPIO number for various I/O
+latch: 17
+button: 18
+led_r: 2
+led_g: 4
+led_b: 3
+# Location of the lock file
+lock_file: /nvm/lock.yaml

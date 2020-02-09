@@ -4,14 +4,5 @@ PR = "r1"
 inherit packagegroup
 
 RDEPENDS_${PN} = "\
-  python3 \
-  python3-rpi-gpio \
-  python3-pyyaml \
-  python3-bcrypt \
-  python3-transitions \
-  python3-gpiozero \
-  python3-dbus \
-  python3-sdnotify \
-  python3-colorzero \
-  python3-pycparser \
+  dbox-app-service \
 "

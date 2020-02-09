@@ -1,0 +1,15 @@
+[Unit]
+Description=Dbox Application Service
+Requires=nvmfs.service
+
+[Service]
+Type=notify
+TimeoutStartSec=30
+ExecStart=/usr/bin/dbox-app
+KillMode=process
+NotifyAccess=main
+WatchdogSec=5
+# Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
